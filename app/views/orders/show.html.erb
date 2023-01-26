@@ -10,8 +10,11 @@
     <%= render 'item', item:item %>
   <% end %>
   </div>
-  <div>
+  <span>Email :</span>
   <%= @order.email %>
+  <br>
+  <div>Order Total :</div>
+  <div>
   <%= number_with_precision(@order.total_cents / 100.0  , precision: 2) %>
   </div>
   

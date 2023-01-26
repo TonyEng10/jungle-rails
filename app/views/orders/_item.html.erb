@@ -1,19 +1,19 @@
 <tr>
-   
-   <td>
-   <%= item.quantity %>
-   </td> 
-   <td>
-   <%= item.total_price_cents / 100.0 %>
-   </td> 
-   <td>
-   <%= image_tag item.product.image.tiny.url %>
-   </td> 
-   <td>
-   <%= item.product.name %>
-   </td> 
-   <td>
-   <%= item.product.description %>
-   </td> 
-
+  <br> 
+  <td>
+    <%= image_tag item.product.image.tiny.url %>
+  </td> 
+  <td>
+    <h3><%= item.product.name %></h3> 
+    <br>
+    <p><%= item.product.description %><p>
+  </td>
+  <td>
+    <div>Item Quantity :</div>
+    <%= item.quantity %>
+  </td> 
+  <td>
+    <div>Item Total :</div>
+    <%= item.total_price_cents / 100.0 %>
+  </td> 
 </tr>
