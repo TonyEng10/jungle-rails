@@ -24,6 +24,28 @@ Rails.application.routes.draw do
     resources :categories
   end
 
+
+  # These routes will be for signup. The first renders a form in the browse, the second will 
+  # receive the form and create a user in our database using the data given to us by the user.
+  # get '/signup' => 'users#new'
+  # post '/users' => 'users#create'
+
+  # get '/login' => 'sessions#new'
+  # post '/login' => 'sessions#create'
+  # get '/logout' => 'sessions#destroy'
+  
+  
+  get 'sign_up', to: 'users#new'
+  post 'sign_up', to: 'users#create'
+  get 'sign_in', to: 'sessions#new'
+  post 'sign_in', to: 'sessions#create', as: 'log_in'
+  delete 'logout', to: 'sessions#destroy'
+  get 'password', to: 'passwords#edit', as: 'edit_password'
+  patch 'password', to: 'passwords#update'
+  get 'password/reset', to: 'password_resets#new'
+  post 'password/reset', to: 'password_resets#create'
+  get 'password/reset/edit', to: 'password_resets#edit'
+  patch 'password/reset/edit', to: 'password_resets#update'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
