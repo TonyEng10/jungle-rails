@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('visit Jungle click into product details', () => {
+describe('visit Jungle add item to cart', () => {
   beforeEach(() => {
     // Cypress starts out with a blank slate for each test
     // so we must tell it to visit our website with the `cy.visit()` command.
@@ -17,7 +17,7 @@ describe('visit Jungle click into product details', () => {
     cy.get(".products article").should("have.length", 12);
   });
 
-  it("select link to click get product details ", () => {
-    cy.get('a[href="/products/12"]').click();
+  it("clicks on add product to cart button", () => {
+    cy.get('.btn:first').click({force: true});
   })
 })

@@ -1,9 +1,14 @@
-<h1>Login</h1>
-
+<div class="login-form">
   <%= form_with url: sign_in_path do |f| %>
-
-  Email: <%= text_field_tag :email %>
-  Password: <%= password_field_tag :password %>
-  <%= f.submit 'Log In' %>
-
-<% end %>
+    <h1>Login</h1>
+    <div class="form-div">
+      Email: <%= text_field_tag :email %>
+    </div>
+    <div class="form-div">
+      Password: <%= password_field_tag :password %>
+    </div>
+    <div class="form-div">
+      <%= f.submit 'Log In' %>
+    </div>
+  <% end %>
+</div>
