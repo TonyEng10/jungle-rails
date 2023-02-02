@@ -35,4 +35,14 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ![homepage](https://user-images.githubusercontent.com/116857221/216215307-09b70484-de35-47b5-ac6f-452b36597ea3.png)
 
 
-)
+![cart](https://user-images.githubusercontent.com/116857221/216215582-80deb192-14e1-4f69-b994-711a849957b9.png)
+
+
+![admin/products](https://user-images.githubusercontent.com/116857221/216215656-9b04a856-3461-4e6e-a57d-724a2b98f1d8.png)
+
+
+![admin/categories](https://user-images.githubusercontent.com/116857221/216215747-954beb3f-05d7-4e68-b7da-fd6861080def.png)
+
+
+
+
