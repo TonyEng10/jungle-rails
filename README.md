@@ -29,3 +29,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+##Screenshots
+
+![homepage](https://user-images.githubusercontent.com/116857221/216215307-09b70484-de35-47b5-ac6f-452b36597ea3.png)
+
+
+)
